@@ -23,6 +23,7 @@ form {
 }
 .WeatherApp .form-control {
   display: inline;
+  margin: 0px 10px;
   font-size: 18px;
   font-weight: 400;
   color: #495057;
@@ -35,6 +36,8 @@ form {
 
 button {
   display: inline;
+  width: 16rem;
+  margin: 0px 10px;
   font-weight: 400;
   font-size: 18px;
   border: 1px solid transparent;

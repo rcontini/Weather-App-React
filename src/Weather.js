@@ -17,23 +17,18 @@ export default function Weather() {
     <div className="WeatherApp">
       <div className="border">
         <h1>Weather</h1>
-        <div className="row">
-          <div className="col-6">
-            <form className="search" id="searchEngine">
-              <input
-                type="search"
-                className="form-control dc-input"
-                placeholder="Search a City..."
-                id="searchInput"
-                autocomplete="off"
-              />
-            </form>
-          </div>
 
-          <div className="col-6" id="locationButton">
-            <button>Current Location</button>
-          </div>
-        </div>
+        <form className="search" id="searchEngine">
+          <input
+            type="search"
+            className="form-control dc-input"
+            placeholder="Search a City..."
+            id="searchInput"
+            autoComplete="off"
+          />
+        </form>
+
+        <button>Current Location</button>
 
         <h2 id="locationHeader">
           <em></em>
