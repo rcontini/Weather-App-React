@@ -70,6 +70,17 @@ export default function Weather() {
           <div className="card-body" id="forecast"></div>
         </div>
       </div>
+      <div className="githubLink">
+        <p>
+          <a href="https://github.com/rcontini/Weather-App-React">
+            Open Source Code
+          </a>{" "}
+          by{" "}
+          <a href="https://splendid-lokum-3327ae.netlify.app">
+            Rachele Contini
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
