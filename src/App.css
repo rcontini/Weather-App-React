@@ -32,9 +32,7 @@ form {
   width: 16rem;
   transition: all 150ms ease-in-out;
 }
-#locationButton {
-  padding: 0px;
-}
+
 button {
   display: inline;
   font-weight: 400;
