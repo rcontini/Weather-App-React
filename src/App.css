@@ -33,6 +33,9 @@ form {
   width: 16rem;
   transition: all 150ms ease-in-out;
 }
+a :visited {
+  color: blue;
+}
 
 button {
   display: inline;
