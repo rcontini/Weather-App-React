@@ -3,18 +3,17 @@ import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
-  const [ready, setReady] = useState(false);
-  const [weatherData, setWeatherData] = useState({});
+  const [weatherData, setWeatherData] = useState({ ready: false });
 
-  let weatherAppData = {
-    city: "Washington DC",
-    date: "Tuesday 26th: 9:38pm",
-    currentTemp: 21,
-    maxTemp: 23,
-    minTemp: 17,
-    description: "Sunny",
-    humidity: 9,
-    windspeed: 3,
+ // let weatherAppData = {
+    //city: "Washington DC",
+  //  date: "Tuesday 26th: 9:38pm",
+  //  currentTemp: 21,
+    //maxTemp: 23,
+    //minTemp: 17,
+    //description: "Sunny",
+    //humidity: 9,
+    //windspeed: 3,
   };
 
   function handleResponse(response) {
@@ -24,6 +23,7 @@ export default function Weather() {
       humidity: response.data.main.humidity,
       windspeed: response.data.wind.speed,
       description: response.data.weather[0].description,
+      date: "Friday 30th, 2022",
     });
     setReady(true);
   }
@@ -52,7 +52,7 @@ export default function Weather() {
             </h2>
             <div className="card current-temp">
               <div className="card-body">
-                <h2 id="date"></h2>
+                <h2 id="date">{weatherData.date}</h2>
                 <em>Current Temperature:</em>
                 <br />
                 <span>
