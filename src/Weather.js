@@ -3,21 +3,10 @@ import axios from "axios";
 import "./Weather.css";
 
 import WeatherInfo from "./WeatherInfo";
-import { specialCharMap } from "@testing-library/user-event/dist/keyboard";
+
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
-
-  // let weatherAppData = {
-  //city: "Washington DC",
-  //  date: "Tuesday 26th: 9:38pm",
-  //  currentTemp: 21,
-  //maxTemp: 23,
-  //minTemp: 17,
-  //description: "Sunny",
-  //humidity: 9,
-  //windspeed: 3,
-  // };
 
   function handleResponse(response) {
     setWeatherData({
