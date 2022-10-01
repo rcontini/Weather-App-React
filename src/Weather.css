@@ -74,9 +74,6 @@ h2 {
 }
 .icon {
   display: inline-block;
-  position: relative;
-  left: 10px;
-  top: 8px;
 }
 .WeatherApp .temp {
   display: inline-block;
