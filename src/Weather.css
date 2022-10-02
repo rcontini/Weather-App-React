@@ -33,8 +33,14 @@ form {
   width: 16rem;
   transition: all 150ms ease-in-out;
 }
+#unitLink {
+  text-decoration: none;
+}
+#unitLink:hover {
+  color: grey;
+}
 a:visited {
-  color: blue;
+  color: black;
 }
 
 button {
