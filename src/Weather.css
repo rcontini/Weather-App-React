@@ -69,10 +69,10 @@ h2 {
   margin: 10px 0px;
 }
 
-.WeatherApp .current-temp {
+.current-temp {
   background: #85a6b1;
   display: inline-block;
-  vertical-align: middle;
+
   margin: 10px;
   width: 16rem;
   border: 1px solid #ced4da;
