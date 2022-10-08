@@ -40,9 +40,9 @@ export default function WeatherInfo(props) {
               km/h
             </li>
           </ul>
+          <WeatherForecast coordinates={props.data.coordinates} />
         </div>
       </div>
-      <WeatherForecast coordinates={props.data.coordinates} />
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+
+import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Weather.css";
-
-import WeatherInfo from "./WeatherInfo";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -59,6 +60,7 @@ export default function Weather(props) {
 
             <button>Current Location</button>
             <WeatherInfo data={weatherData} />
+            <WeatherForecast coordinates={weatherData.coordinates} />
           </div>
           <div className="githubLink">
             <p>
