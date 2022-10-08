@@ -2,25 +2,3 @@
   opacity: 0.8;
   margin-left: 5px;
 }
-
-.five-day-forecast {
-  background: #85a6b1;
-  width: 17rem;
-  border: 1px solid #ced4da;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 10px 0px 10px 10px;
-  margin: 10px 0px 10px 10px;
-}
-.weather-forecast-date {
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 2rem;
-}
-li {
-  list-style: none;
-}
-.weather-forecast-temperature {
-  font-weight: 500;
-  font-size: 15px;
-}

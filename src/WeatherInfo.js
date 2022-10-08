@@ -10,7 +10,8 @@ export default function WeatherInfo(props) {
       <h2 id="locationHeader">
         <em>{props.data.city}</em>
       </h2>
-      <div className="card current-temp">
+
+      <div className="card currentAndForecastTemp" id="current-temp">
         <div className="card-body">
           <h2 id="date">
             <FormattedDate date={props.data.date} />
