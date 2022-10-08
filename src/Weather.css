@@ -117,6 +117,7 @@ li {
 #five-day-forecast {
   background: #85a6b1;
   width: 17rem;
+  line-height: 4rem;
   border: 1px solid #ced4da;
   display: inline-block;
   vertical-align: middle;
