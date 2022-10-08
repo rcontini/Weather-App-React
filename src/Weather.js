@@ -21,6 +21,7 @@ export default function Weather(props) {
       date: new Date(response.data.dt * 1000),
       maxTemp: response.data.main.temp_max,
       minTemp: response.data.main.temp_min,
+      coordinates: response.data.coord,
     });
   }
   function search() {
