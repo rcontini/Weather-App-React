@@ -123,6 +123,10 @@ li {
   padding: 10px 0px 10px 10px;
   margin: 10px 0px 10px 10px;
 }
+.WeatherForecastTemp-min {
+  opacity: 0.8;
+  margin-left: 5px;
+}
 
 .githubLink {
   display: block;
