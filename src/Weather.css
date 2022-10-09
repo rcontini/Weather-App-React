@@ -43,21 +43,6 @@ a:visited {
   color: black;
 }
 
-button {
-  display: inline;
-  width: 16rem;
-  margin: 0px 10px;
-  font-weight: 400;
-  font-size: 18px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  padding: 0.375rem 0.75rem;
-  transition: all 150ms ease-in-out;
-}
-button:hover {
-  background: rgb(192, 191, 191);
-  cursor: pointer;
-}
 h2 {
   font-size: 30px;
   color: #f4f4f4;
@@ -69,16 +54,16 @@ h2 {
   margin: 10px 0px;
 }
 
-#current-temp {
+/*#current-temp {
   background: #85a6b1;
-  /* display: inline-block;*/
-  margin: 10px;
-  width: 16rem;
-  border: 1px solid #ced4da;
-  border-radius: 5px;
+
 }
+.weekday {
+  text-align: left;
+}*/
 .icon {
   display: inline-block;
+  margin: 0px 20px;
 }
 .WeatherApp .temp {
   display: inline-block;
@@ -115,13 +100,14 @@ li {
   opacity: 0.7;
 }
 #five-day-forecast {
+  text-align: center;
   background: #85a6b1;
   width: 17rem;
   line-height: 3rem;
   border: 1px solid #ced4da;
   border-radius: 5px;
   padding: 10px 0px 10px 10px;
-  margin: 10px 0px 10px 10px;
+  /*margin: 10px 0px 10px 10px;*/
 }
 .WeatherForecastTemp-min {
   opacity: 0.8;

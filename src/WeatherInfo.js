@@ -21,16 +21,11 @@ export default function WeatherInfo(props) {
           <em>Current Temperature:</em>
           <br />
           <span>
-            <WeatherIcon
-              code={props.data.icon}
-              className="float-left"
-              size={52}
-            />
+            <WeatherIcon code={props.data.icon} className="icon" size={60} />
           </span>
           <WeatherTemperature celsius={props.data.temperature} />
           <br />
-          <span id="temp-max">{Math.round(props.data.maxTemp)}</span>/
-          <span id="temp-min">{Math.round(props.data.minTemp)}</span>
+
           <ul>
             <li id="description">{props.data.description}</li>
             <li>
