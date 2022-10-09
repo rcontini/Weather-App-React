@@ -56,7 +56,6 @@ export default function Weather(props) {
               />
             </form>
 
-            <button>Current Location</button>
             <WeatherInfo data={weatherData} />
           </div>
           <div className="githubLink">
