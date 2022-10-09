@@ -22,8 +22,8 @@ form {
   margin: 0px 0px 0px 10px;
 }
 .WeatherApp .form-control {
-  display: inline;
-  margin: 0px 10px;
+  /*display: inline;*/
+
   font-size: 18px;
   font-weight: 400;
   color: #495057;
@@ -46,7 +46,7 @@ a:visited {
 h2 {
   font-size: 30px;
   color: #f4f4f4;
-  margin: 10px 0px 5px 10px;
+  margin: 10px 0px 5px 0px;
 }
 #date {
   color: #000000;
@@ -54,13 +54,6 @@ h2 {
   margin: 10px 0px;
 }
 
-/*#current-temp {
-  background: #85a6b1;
-
-}
-.weekday {
-  text-align: left;
-}*/
 .icon {
   display: inline-block;
   margin: 0px 20px;
