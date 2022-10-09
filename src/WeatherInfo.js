@@ -8,13 +8,13 @@ import "./Weather.css";
 
 export default function WeatherInfo(props) {
   return (
-    <div className="WeatherInfo">
+    <div className="container WeatherInfo">
       <h2 id="locationHeader">
         <em>{props.data.city}</em>
       </h2>
 
-      <div className="card currentAndForecastTemp" id="current-temp">
-        <div className="card-body">
+      <div className="row" id="current-temp">
+        <div className="col-6">
           <h2 id="date">
             <FormattedDate date={props.data.date} />
           </h2>
@@ -43,6 +43,8 @@ export default function WeatherInfo(props) {
               km/h
             </li>
           </ul>
+        </div>
+        <div className="col-6">
           <WeatherForecast coordinates={props.data.coordinates} />
         </div>
       </div>

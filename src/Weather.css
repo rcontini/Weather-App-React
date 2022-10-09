@@ -71,8 +71,7 @@ h2 {
 
 #current-temp {
   background: #85a6b1;
-  display: inline-block;
-
+  /* display: inline-block;*/
   margin: 10px;
   width: 16rem;
   border: 1px solid #ced4da;
@@ -117,20 +116,16 @@ li {
 #five-day-forecast {
   background: #85a6b1;
   width: 17rem;
-  line-height: 4rem;
+  line-height: 3rem;
   border: 1px solid #ced4da;
-  display: inline-block;
-  vertical-align: middle;
+  /* display: inline-block;
+  vertical-align: middle;*/
   padding: 10px 0px 10px 10px;
   margin: 10px 0px 10px 10px;
 }
 
 li {
   list-style: none;
-}
-.currentAndForecastTemp {
-  display: flex;
-  justify-content: center;
 }
 .githubLink {
   display: block;

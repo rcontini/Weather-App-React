@@ -15,20 +15,16 @@ export default function WeatherForecast(props) {
 
   if (loaded) {
     return (
-      <div className="card currentAndForecastTemp" id="five-day-forecast">
-        <div className="card-body" id="forecast">
-          <div className="row">
-            {forecast.map(function (dailyForecast, index) {
-              if (index < 5) {
-                return (
-                  <div className="col-12" key={index}>
-                    <WeatherForecastDay data={dailyForecast} />
-                  </div>
-                );
-              }
-            })}
-          </div>
-        </div>
+      <div className="row" id="five-day-forecast">
+        {forecast.map(function (dailyForecast, index) {
+          if (index < 5) {
+            return (
+              <div className="col-12" key={index}>
+                <WeatherForecastDay data={dailyForecast} />
+              </div>
+            );
+          }
+        })}
       </div>
     );
   } else {
