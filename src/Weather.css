@@ -100,7 +100,6 @@ li {
   border: 1px solid #ced4da;
   border-radius: 5px;
   padding: 10px 0px 10px 10px;
-  /*margin: 10px 0px 10px 10px;*/
 }
 .WeatherForecastTemp-min {
   opacity: 0.8;
@@ -121,7 +120,7 @@ li {
     width: 100%;
     display: block;
     margin: 0 auto;
-    font-size: small;
+    font-size: medium;
   }
   #locationHeader {
     text-align: center;
