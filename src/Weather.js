@@ -60,11 +60,17 @@ export default function Weather(props) {
           </div>
           <div className="githubLink">
             <p>
-              <a href="https://github.com/rcontini/Weather-App-React">
+              <a
+                className="sourceCode"
+                href="https://github.com/rcontini/Weather-App-React"
+              >
                 Open Source Code
               </a>{" "}
               by{" "}
-              <a href="https://melodious-pithivier-57ba29.netlify.app/">
+              <a
+                className="Portfolio"
+                href="https://melodious-pithivier-57ba29.netlify.app/"
+              >
                 Rachele Contini
               </a>
             </p>
