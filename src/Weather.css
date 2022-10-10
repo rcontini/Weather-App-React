@@ -3,7 +3,7 @@ body {
   margin: 50px;
   font-family: "Roboto", sans-serif;
 }
-.WeatherApp .border {
+.border {
   border: 1px solid #ffff;
   padding: 25px;
   margin: 20px auto;
@@ -111,4 +111,40 @@ li {
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+@media (max-width: 596px) {
+  .WeatherApp .border {
+    border: none;
+  }
+  .WeatherApp .form-control {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-size: small;
+  }
+  #locationHeader {
+    text-align: center;
+  }
+  #current-temp {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .weather-forecast {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  #five-day-forecast {
+    border: none;
+    text-align: center;
+    margin: 3px 0px;
+    padding: 0px 0px;
+  }
+  .sourceCode,
+  .Portfolio {
+    display: flex;
+    justify-content: center;
+  }
 }
